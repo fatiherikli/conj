@@ -20,6 +20,13 @@ fromCity = conj(city, True, 'ablative') # or 'den' instead of ablative as shortc
 
 print(fromCity)
 # Output: İstanbul'dan
+
+# Alternative API
+from conj import conj
+conj('İstanbul', true, 'dan') # İstanbul'dan
+conj('İstanbul', true, 'da') # İstanbul'da
+conj('İstanbul', true, 'e') # İstanbul'a
+conj('İstanbul', true, 'i') # İstanbul'u
 ```
 
 ## Running Tests
